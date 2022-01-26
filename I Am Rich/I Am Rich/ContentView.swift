@@ -10,16 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            // red: 0.35, green: 0.71, blue: 0.52,
-            // red: 0.13, green: 0.72, blue: 0.50,
-            Color(red: 0.13, green: 0.72, blue: 0.50, opacity: 1.00)
+            Color(.white)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Image("Untitled design (7)")
-                Text("철봉왕")
-                    .foregroundColor(.white)
-                    .font(.title)
-                
+                Text("Hello, world!")
+                    .font(.system(size: 40))
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.orange)
+                Image("Untitled design (1)")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 200, height: 200, alignment: .center)
             }
         }
     }
@@ -30,4 +31,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-//88 181 133
