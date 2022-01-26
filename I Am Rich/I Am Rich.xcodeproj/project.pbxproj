@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B47E9B827A1B9FB006F5882 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B47E9B727A1B9FB006F5882 /* Launch Screen.storyboard */; };
 		9B6CF13927A15AC300087D14 /* I_Am_RichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6CF13827A15AC300087D14 /* I_Am_RichApp.swift */; };
 		9B6CF13B27A15AC300087D14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6CF13A27A15AC300087D14 /* ContentView.swift */; };
 		9B6CF13D27A15AC400087D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6CF13C27A15AC400087D14 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B47E9B727A1B9FB006F5882 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9B6CF13527A15AC300087D14 /* I Am Rich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Am Rich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6CF13827A15AC300087D14 /* I_Am_RichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_RichApp.swift; sourceTree = "<group>"; };
 		9B6CF13A27A15AC300087D14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 		9B6CF12C27A15AC300087D14 = {
 			isa = PBXGroup;
 			children = (
+				9B47E9B727A1B9FB006F5882 /* Launch Screen.storyboard */,
 				9B6CF13727A15AC300087D14 /* I Am Rich */,
 				9B6CF13627A15AC300087D14 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B47E9B827A1B9FB006F5882 /* Launch Screen.storyboard in Resources */,
 				9B6CF14027A15AC400087D14 /* Preview Assets.xcassets in Resources */,
 				9B6CF13D27A15AC400087D14 /* Assets.xcassets in Resources */,
 			);
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
