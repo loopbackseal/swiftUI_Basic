@@ -13,14 +13,21 @@ struct ContentView: View {
             Color(red: 0.13, green: 0.72, blue: 0.50, opacity: 1.00)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Image("pullup")
+                Image("IMG_3458")
                     .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 300, height: 300, alignment: .center)
-                Text("철봉왕")
-                    .font(.system(size: 30))
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 150, height: 150, alignment: .center)
+                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                Text("황영수")
+                    .font(.system(size: 35))
                     .fontWeight(.regular)
                     .foregroundColor(.white)
+                Text("iOS Developer")
+                    .font(.system(size: 20))
+                    .fontWeight(.light)
+                    .foregroundColor(.white)
+                InfoView(text: "+82 010 2243 3961", imageName: "phone.fill")
+                InfoView(text: "young961027@gmail.com", imageName: "envelope.fill")
             }
         }
     }
