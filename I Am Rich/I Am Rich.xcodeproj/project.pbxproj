@@ -13,6 +13,7 @@
 		9B6CF13D27A15AC400087D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6CF13C27A15AC400087D14 /* Assets.xcassets */; };
 		9B6CF14027A15AC400087D14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6CF13F27A15AC400087D14 /* Preview Assets.xcassets */; };
 		9BD1882727A7DCED00773B5F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1882627A7DCED00773B5F /* CircleImage.swift */; };
+		9BD1882927A923C200773B5F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1882827A923C200773B5F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9B6CF13C27A15AC400087D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B6CF13F27A15AC400087D14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BD1882627A7DCED00773B5F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9BD1882827A923C200773B5F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9B6CF13827A15AC300087D14 /* I_Am_RichApp.swift */,
 				9B6CF13A27A15AC300087D14 /* ContentView.swift */,
 				9BD1882627A7DCED00773B5F /* CircleImage.swift */,
+				9BD1882827A923C200773B5F /* MapView.swift */,
 				9B6CF13C27A15AC400087D14 /* Assets.xcassets */,
 				9B6CF13E27A15AC400087D14 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B6CF13B27A15AC300087D14 /* ContentView.swift in Sources */,
+				9BD1882927A923C200773B5F /* MapView.swift in Sources */,
 				9BD1882727A7DCED00773B5F /* CircleImage.swift in Sources */,
 				9B6CF13927A15AC300087D14 /* I_Am_RichApp.swift in Sources */,
 			);
