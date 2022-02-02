@@ -14,6 +14,9 @@
 		9B6CF14027A15AC400087D14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6CF13F27A15AC400087D14 /* Preview Assets.xcassets */; };
 		9BD1882727A7DCED00773B5F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1882627A7DCED00773B5F /* CircleImage.swift */; };
 		9BD1882927A923C200773B5F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1882827A923C200773B5F /* MapView.swift */; };
+		9BD1882B27AABDE500773B5F /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BD1882A27AABDE500773B5F /* landmarkData.json */; };
+		9BD1882D27AABE2500773B5F /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1882C27AABE2500773B5F /* Landmark.swift */; };
+		9BD1882F27AAC3CA00773B5F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1882E27AAC3CA00773B5F /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		9B6CF13F27A15AC400087D14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BD1882627A7DCED00773B5F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		9BD1882827A923C200773B5F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9BD1882A27AABDE500773B5F /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		9BD1882C27AABE2500773B5F /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		9BD1882E27AAC3CA00773B5F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				9B6CF13827A15AC300087D14 /* I_Am_RichApp.swift */,
-				9B6CF13A27A15AC300087D14 /* ContentView.swift */,
-				9BD1882627A7DCED00773B5F /* CircleImage.swift */,
-				9BD1882827A923C200773B5F /* MapView.swift */,
 				9B6CF13C27A15AC400087D14 /* Assets.xcassets */,
+				9BD1883127AAC61500773B5F /* Views */,
+				9BD1883027AAC54100773B5F /* Model */,
+				9BD1883227AAC62E00773B5F /* Resources */,
 				9B6CF13E27A15AC400087D14 /* Preview Content */,
 			);
 			path = "I Am Rich";
@@ -74,6 +80,33 @@
 				9B6CF13F27A15AC400087D14 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BD1883027AAC54100773B5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BD1882C27AABE2500773B5F /* Landmark.swift */,
+				9BD1882E27AAC3CA00773B5F /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BD1883127AAC61500773B5F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B6CF13A27A15AC300087D14 /* ContentView.swift */,
+				9BD1882627A7DCED00773B5F /* CircleImage.swift */,
+				9BD1882827A923C200773B5F /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BD1883227AAC62E00773B5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BD1882A27AABDE500773B5F /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B47E9B827A1B9FB006F5882 /* Launch Screen.storyboard in Resources */,
+				9BD1882B27AABDE500773B5F /* landmarkData.json in Resources */,
 				9B6CF14027A15AC400087D14 /* Preview Assets.xcassets in Resources */,
 				9B6CF13D27A15AC400087D14 /* Assets.xcassets in Resources */,
 			);
@@ -151,6 +185,8 @@
 				9BD1882927A923C200773B5F /* MapView.swift in Sources */,
 				9BD1882727A7DCED00773B5F /* CircleImage.swift in Sources */,
 				9B6CF13927A15AC300087D14 /* I_Am_RichApp.swift in Sources */,
+				9BD1882D27AABE2500773B5F /* Landmark.swift in Sources */,
+				9BD1882F27AAC3CA00773B5F /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
