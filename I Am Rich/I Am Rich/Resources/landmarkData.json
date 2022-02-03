@@ -1,19 +1,19 @@
 [
     {
-        "name": "Turtle Rock",
-        "category": "Rivers",
-        "city": "Twentynine Palms",
-        "state": "California",
+        "name": "한라산",
+        "category": "Mountains",
+        "city": "Jeju-Si",
+        "state": "Jeju-do",
         "id": 1001,
         "isFeatured": true,
         "isFavorite": true,
-        "park": "Joshua Tree National Park",
+        "park": "한라산 국립공원",
         "coordinates": {
-            "longitude": -116.166868,
-            "latitude": 34.011286
+            "longitude": 126.60219862,
+            "latitude": 33.38268036
         },
-        "description": "Suscipit inceptos est felis purus aenean aliquet adipiscing diam venenatis, augue nibh duis neque aliquam tellus condimentum sagittis vivamus, cras ante etiam sit conubia elit tempus accumsan libero, mattis per erat habitasse cubilia ligula penatibus curae. Sagittis lorem augue arcu blandit libero molestie non ullamcorper, finibus imperdiet iaculis ad quam per luctus neque, ligula curae mauris parturient diam auctor eleifend laoreet ridiculus, hendrerit adipiscing sociosqu pretium nec velit aliquam. Inceptos egestas maecenas imperdiet eget id donec nisl curae congue, massa tortor vivamus ridiculus integer porta ultrices venenatis aliquet, curabitur et posuere blandit magnis dictum auctor lacinia, eleifend dolor in ornare vulputate ipsum morbi felis. Faucibus cursus malesuada orci ultrices diam nisl taciti torquent, tempor eros suspendisse euismod condimentum dis velit mi tristique, a quis etiam dignissim dictum porttitor lobortis ad fermentum, sapien consectetur dui dolor purus elit pharetra. Interdum mattis sapien ac orci vestibulum vulputate laoreet proin hac, maecenas mollis ridiculus morbi praesent cubilia vitae ligula vel, sem semper volutpat curae mauris justo nisl luctus, non eros primis ultrices nascetur erat varius integer.",
-        "imageName": "turtlerock"
+        "description": "대한민국에서 가장 큰 섬인 제주도에 있으며 대한민국의 실효지배 영토 내의 최고봉이자 가장 높은 산(해발 1,947m). 대한민국의 국립공원 중 하나이다. 국립공원 전역이 유네스코 세계유산으로 지정되었다. 그리고 대한민국의 실효지배 영토 내 해상 활화산이다. 이름을 풀이하면 운한(雲漢: 은하수, 또는 높은 하늘)을 당긴다(拏)는 뜻으로 은하수를 붙잡을 정도로 높은 산이라는 뜻이다. 금강산, 지리산과 함께 대한민국 삼신산(三神山) 중 하나로 꼽힌다. 한반도 본토 내의 남/북 합쳐서 2번째 혹은 3번째 높이의 산으로 오해하는 경우가 많다. 하지만 한반도 최고봉은 백두산 (2,744m) 이고, 2번째 산은 함경북도 경성군·무산군의 경계에 위치한 관모봉(2,541m)이며. 3번째 산은 함경남도 풍산군의 북수백산이다. 한반도 본토 북부 지방에는 (개마고원 일대)에 높은 산 60여 곳이 널렸다. 제주도를 제외한 남한 내륙에서는 지리산이 최고봉이다.제주도는 오랫동안 '한라산'이라는 이름으로 대표되는 거대한 순상화산체인 섬이라는 것이 정설이었다. 이것이 제주도 사람들의 한라산에 대한 인식과 합쳐져서 생긴 말이 \"한라산이 곧 제주도이며 제주도가 곧 한라산.\"이다. 그러나 연구 결과가 쌓이면서, 한라산은 제주도를 쌓아올린 여러 단성 내지는 준단성화산체들 중에서 가장 중앙에 크게 쌓인 것에 불과하며, 사실 제주도가 하나의 커다란 화산지대였다는 주장이 힘을 얻고 있다. 실제로 대부분 화산폭발이 한라산의 중심폭발이 아니었다.한라산은 높은 산이지만, 멀리서 보면 흔히 '산' 하면 떠오르는 뾰족하고 깎아지른 모습이 아니라 비교적 완만한 경사로 되어있다. 순상화산의 특징 중 하나. 겨울철에는 대설특보 등으로 입산 통제가 빈번하며 봄철에도 장마급 비가 내리는 한국에서 대표적인 호우 지역이다. 하루에만 1,000mm (1m)이상의 무시무시한 집중호우가 내리는 경우도 있다. 이 점을 잘 공략한다면 물이 가득찬 백록담을 보는 행운을 누릴 수도 있다.",
+        "imageName": "IMG_3019"
     },
     {
         "name": "Silver Salmon Creek",
