@@ -17,6 +17,13 @@ struct Landmark: Hashable, Codable, Identifiable {
     var description: String
     var isFavorite: Bool
     
+    var category: Category
+    enum Category: String, CaseIterable, Codable {
+        case lakes = "Lakes"
+        case rivers = "Rivers"
+        case mountains = "Mountains"
+        // "Lakes"를 한글로 하면 왜 오류가 나는지 찾아볼 것
+    }
     private var imageName: String
     var image: Image {
         Image(imageName)
