@@ -7,34 +7,27 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @State private var selection: Tab = .featured
+
+    enum Tab {
+        case featured
+        case list
+    }
+    
     var body: some View {
-        VStack {
-            MapView()
-                .frame(height: 300)
-                .ignoresSafeArea(edges: .top)
-            CircleImage()
-                .offset(y: -130)
-                .padding(.bottom, -130)
-            VStack (alignment: .leading) {
-                Text("한라산")
-                    .font(.title)
-                HStack {
-                    Text("Halla-Mountain")
-                    Spacer()
-                    Text("Jeju-Si")
+        TabView(selection: $selection) {
+            CategoryHome()
+                .tabItem {
+                    Label("인기", systemImage: "star")
                 }
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-                
-                Divider()
-                
-                Text("영실코스")
-                    .font(.title2)
-                Text("영실코스는 예약 없이 방문이 가능합니다")
-            }
-            .padding()
-            Spacer()
+                .tag(Tab.featured)
+            LandmarkList()
+                .tabItem {
+                    Label("모두보기", systemImage: "list.bullet")
+                }
+                .tag(Tab.list)
         }
     }
 }
@@ -42,5 +35,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
     }
 }
